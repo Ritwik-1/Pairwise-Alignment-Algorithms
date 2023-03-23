@@ -1,0 +1,11 @@
+The changes in code are at
+
+1. all negative values in the scoring matrix are changed to zeroes
+
+2. Initial filling is done by zeroes
+
+3. The backtracking starts from the largest element of the array
+   which is found by traversal in the 2D array
+
+4. The base case is changed to the element with value zero instead of 
+   the element with index as 0,0
